@@ -1,0 +1,172 @@
+product-card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border: none; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+  
+  
+  .product-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  
+  .product-card-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+  }
+  
+  .product-card-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  /* Container padding and spacing */
+.container.mt-5 {
+  margin-top: 3rem;
+}
+
+/* Cart header styles */
+.container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.list-group-item {
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.list-group-item .row {
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+button {
+  border-radius: 4px;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+
+button.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+button.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+
+button.btn-danger {
+  background-color: #df4d65;
+  border: none;
+}
+
+button.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.list-group-item strong {
+  font-size: 1.2rem;
+  color: #343a40;
+}
+
+.container h3 {
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #f84727;
+}
+
+
+button.mt-3 {
+  width: 50%;
+  padding: .75rem;
+}
+
+button.btn-warning {
+  background-color: #00a2ff;
+  border: none;
+}
+
+button.btn-warning:hover {
+  background-color: #03a4cc;
+}
+
+button.btn-success {
+  background-color: #24cf4c;
+  border: none;
+}
+
+button.btn-success:hover {
+  background-color: #0fb44e;
+}
+
+
+.text-center.mt-5 .spinner-border {
+  width: 3rem;
+  height: 3rem;
+  color: #007bff;
+}
+
+.text-center.mt-5 .loading-spinner {
+  width: 3rem;
+  height: 3rem;
+  color: #007bff; 
+}
+
+
+.container.mt-5 {
+  margin-top: 3rem;
+}
+
+
+.card-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+
+.card-body {
+  padding: 2rem;
+}
+
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.list-group-item {
+  padding: 1.2rem;
+  border: none;
+}
+
+.list-group-item strong {
+  color: #495057;
+}
